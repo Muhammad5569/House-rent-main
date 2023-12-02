@@ -1,0 +1,332 @@
+body{
+   margin: 0px;
+   padding: 0;
+   outline: 0;
+   box-sizing: border-box!important;
+}
+.container{
+   max-width: 1110px !important;
+   width: 100%;
+   padding: 0px !important;
+   padding-right: 165px;
+   padding-left: 165px;
+   margin-right: auto;
+   margin-left: auto;
+
+}
+.main-page{
+    
+   width: 1440px;
+   height: 848px;    
+   background-image:   url('./images/Rectangle\ 315.png'),
+                       url('./images/top-view-minimalistic-geometrical-figures-with-copy-space\ 1back.png');   
+   background-size: cover;
+}
+header{
+   padding-top: 73px;
+}
+.headerNavBar{
+   display: inline-block;
+   width: 635px;
+   margin: 0;
+   margin: 0 30px 0 40px;
+   height: 40px;
+   background: #E8F0F199;
+   border-radius: 10px;
+}
+.headerNavBar li {
+   list-style-type: none;
+   width: 19%;
+   justify-content: inherit;
+   padding-top:6px ;
+   box-sizing: border-box;
+   text-align: center;
+   display: inline-block;
+ }
+.headerNavBarLinks{
+   color: #122719;
+   font-family: Manrope;
+   text-decoration: none;  
+   font-size: 18px;
+   font-weight: 500;
+   
+}
+.headerLanguageBox{
+   display: inline-block;
+   width: 94px;
+   height: 40px;
+   margin-left: 0px;   
+   background-color: #E8F0F199;
+   border-radius: 10px;
+}
+.headerLanguageBox img{
+   display: inline-block;
+   margin-bottom: 8px;
+   padding: 5px;
+   text-align: center;
+}
+.headerLanguageBox h4{
+   display: inline-block;
+   text-decoration: none;
+   color: #000000;
+   margin: 0;
+   padding-top: 5px;
+}
+
+
+
+
+.headerLogoImg{
+   display: inline-block;
+   width: 150px;
+   height: 27px;
+}
+
+.headerLogoImg a{
+   width: 100%;
+   height: 100%;
+}
+.logInButton{
+   display: inline-block;
+   width:131px;
+   font-size: 24px;
+   margin-left: 30px;
+   color: white;
+   height:40px; background-color: #59C154;
+   border-radius: 15px;
+}
+.main-page-daraja{
+   width: 400px;
+   height: 244px;
+   margin: 0 auto;
+   padding-top: 120px;
+   line-height: 77px;
+   font-family: Suisse Intl;   
+   font-size: 64px;
+   font-weight: 600;
+   color: #FFFFFF;
+}
+.main-page-daraja p{
+   color: #B4BFC0;
+   margin: 0;
+}
+.main-page-ptag{
+   height: 45px;
+   font-family: Manrope;
+   font-size: 16px;
+   font-weight: 400;   
+   margin: 0 auto;
+   margin-top: 64px;
+   margin-bottom: 48px;
+   line-height: 20px;
+   text-align: center;
+}
+
+ 
+.searchBar{
+   width: 1110px;
+   height: 128px;
+   border-radius: 15px;
+   background: #FFFFFF66;
+   margin: 0 auto;
+
+}
+.searchBar label{
+   font-size: 14px;
+   font-family: Manrope;
+   line-height: 48px;
+}
+.searchBar select{
+   width: 175px;
+   height: 48px;
+   border-radius: 10px;
+   background-color: #E8F0F1;
+}
+.searchBar-rooms{
+   width: 198px;
+   display: inline-block;
+   
+}
+.searchBar-box{
+   margin-left: 14px;
+   margin-right: 7px;
+}
+.searchBar-room{
+   width: 48px;
+   height: 48px;
+   background-color: #ffffff;
+   display: inline-block;
+   text-align: center;
+   vertical-align: middle;
+   font-size: 14px;
+   font-family: Manrope;
+   line-height: 48px;
+}
+.searchBar-room-green{
+   background-color: #59C154;
+}
+
+.searchButton{
+   background-color: #59C154;
+   width: 160px;
+   height: 48px;
+   border-radius: 10px;
+   margin-top: 16px;
+   position: absolute;
+   right: 200px;
+   
+}
+
+.exchange-boxes{
+width: 100%;
+display: flex;
+
+}
+
+.exchange-box{
+   width: 350px;
+   height: 128px;
+   background-color: #FFFFFF;
+   margin-top: 144px;
+   border-radius: 10px;
+   margin-left: 30px;
+   border: 1px solid rgb(3, 2, 2);
+}
+.exchange-box h2{
+   font-family: Suisse Intl;
+   padding-top: 26px;
+   margin: 0;
+   font-size: 28px;
+   font-weight: 600;
+   line-height: 28px;
+   color: #000000;
+}
+
+.exchange-box p{
+   font-family: Manrope;
+   font-weight: 400;
+   padding-top: 20px;
+   margin: 0;
+   font-size: 14px;
+}
+
+.special-offers{
+   width: 100%;
+   height: 517px;
+   
+}
+.special-offer
+{
+   max-width: 350px;
+   width: 33%;
+   margin: 0 8.459px;
+   background-color: #e8f0f1;
+   display: inline-block;
+   border-radius: 10px;
+}
+.special-offers h1{
+   margin: 50px auto;
+   text-align: center;
+}
+.special-offers h2{
+   margin: 0;
+   display: inline;
+}
+.offers-fav-button{
+
+margin-left: 20px;
+}
+.special-offer p{
+   justify-content: center;
+}
+.special-offer-params div{
+   display: flex;
+   height: 30px;
+   align-items: stretch;
+}
+.co-workers{
+   background-color: #e8f0f1;
+   text-align: center;
+   padding: 0 165px;
+   padding-bottom: 20px;
+}
+.co-workers h1{
+   text-align: start;
+   font-size: 30px;
+   color:#14343999;
+}
+.co-workers-box img{
+   border-radius: 200px 200px 70px 70px;
+   height: 150px;
+}
+
+footer {
+   background-color: #1a1a1a;
+   color: #fff;
+   padding: 30px 0;
+}
+
+.footer-container {
+   display: flex;
+   justify-content: space-between;
+   max-width: 1110px;
+   margin: 0 auto;
+}
+
+.footerLeft {
+   max-width: 300px;
+}
+
+.footerLeft img {
+   width: 100%;
+   height: auto;
+   margin-bottom: 20px;
+}
+
+.footerLeft p {
+   font-size: 12px;
+   line-height: 18px;
+}
+
+.footerRight {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+
+.footerLink,
+.footerContact,
+.footerHelp {
+   flex: 1;
+}
+
+.footerLink h2,
+.footerContact h2,
+.footerHelp h2 {
+   font-size: 18px;
+   margin-bottom: 10px;
+}
+
+.footerLink ul,
+.footerHelp ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+.footerLink li,
+.footerHelp li {
+   margin-bottom: 8px;
+}
+
+.footerLink a,
+.footerHelp a {
+   color: #fff;
+   text-decoration: none;
+   font-size: 14px;
+}
+
+.footerContact p {
+   margin-bottom: 8px;
+}
+
