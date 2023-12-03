@@ -94,6 +94,7 @@ header{
    color: white;
    height:40px; background-color: #59C154;
    border-radius: 15px;
+   cursor: pointer;
 }
 .main-page-daraja{
    width: 400px;
@@ -171,8 +172,8 @@ header{
    width: 160px;
    height: 48px;
    border-radius: 10px;
-   margin-top: 16px;
-   position: absolute;
+   margin-top: 25px;
+   margin-left: 957px;
    right: 200px;
    
 }
@@ -187,7 +188,7 @@ display: flex;
    width: 350px;
    height: 128px;
    background-color: #FFFFFF;
-   margin-top: 144px;
+   margin-top: 74px;
    border-radius: 10px;
    margin-left: 30px;
    border: 1px solid rgb(3, 2, 2);
@@ -225,7 +226,7 @@ display: flex;
    border-radius: 10px;
 }
 .special-offers h1{
-   margin: 50px auto;
+   margin: 65px auto;
    text-align: center;
 }
 .special-offers h2{
@@ -234,7 +235,8 @@ display: flex;
 }
 .offers-fav-button{
 
-margin-left: 20px;
+/* margin-left: 70px; */
+margin-bottom: 10px;
 }
 .special-offer p{
    justify-content: center;
@@ -243,17 +245,21 @@ margin-left: 20px;
    display: flex;
    height: 30px;
    align-items: stretch;
+   margin: 0 50px 0 10px;
 }
 .co-workers{
    background-color: #e8f0f1;
    text-align: center;
-   padding: 0 165px;
-   padding-bottom: 20px;
+   padding: 0 165px 50px 165px;
+   margin-top: 50px;
+   
 }
 .co-workers h1{
    text-align: start;
    font-size: 30px;
    color:#14343999;
+   padding: 20px;
+   
 }
 .co-workers-box img{
    border-radius: 200px 200px 70px 70px;
